@@ -1,3 +1,5 @@
+#Bsp. für Änderungen
+
 GRUB_DEFAULT='0'
 GRUB_TIMEOUT='5'
 GRUB_DISTRIBUTOR='GuideOS (Cinnamon)'
