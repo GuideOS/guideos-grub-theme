@@ -4,7 +4,7 @@ GRUB_DEFAULT='0'
 GRUB_TIMEOUT='5'
 GRUB_DISTRIBUTOR='GuideOS (Cinnamon)'
 GRUB_CMDLINE_LINUX_DEFAULT="loglevel=0 threadirqs locale=de_DE.UTF-8"
-GRUB_CMDLINE_LINUX="quite splash"
+GRUB_CMDLINE_LINUX="quiet splash"
 
 GRUB_PRELOAD_MODULES="part_gpt part_msdos"
 GRUB_TIMEOUT_STYLE=menu
@@ -15,3 +15,4 @@ GRUB_DISABLE_RECOVERY='true'
 GRUB_THEME="/boot/grub/themes/GuideOS/theme.txt"
 GRUB_DISABLE_SUBMENU='false'
 GRUB_DISABLE_OS_PROBER=false
+
