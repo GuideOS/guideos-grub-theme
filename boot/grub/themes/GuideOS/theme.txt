@@ -3,7 +3,7 @@
 title-text: ""
 desktop-image: "background.png"
 desktop-color: "#000000"
-terminal-font: "Terminus Regular 12"
+terminal-font: "Berlin Regular 12"
 terminal-box: "terminal_box_*.png"
 terminal-left: "0"
 terminal-top: "0"
@@ -17,7 +17,7 @@ terminal-border: "0"
   top = 40%
   width = 75%
   height = 65%
-  item_font = "Ubuntu Regular 14"
+  item_font = "Berlin Regular 14"
   item_color = "#cccccc"
   selected_item_color = "#ffffff"
   icon_width = 36
@@ -39,5 +39,5 @@ terminal-border: "0"
   id = "__timeout__"
   text = "Selected OS will start in %d seconds"
   color = "#cccccc"
-  font = "Ubuntu Regular 12"
+  font = "Berlin Regular 12"
 }
