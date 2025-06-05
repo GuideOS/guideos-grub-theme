@@ -3,7 +3,7 @@
 title-text: ""
 desktop-image: "background.png"
 desktop-color: "#000000"
-terminal-font: "Berlin Regular 12"
+terminal-font: "Terminus Regular 12"
 terminal-box: "terminal_box_*.png"
 terminal-left: "0"
 terminal-top: "0"
@@ -13,15 +13,15 @@ terminal-border: "0"
 
 # Boot menu
 + boot_menu {
-  left = 15%
-  top = 40%
-  width = 75%
-  height = 65%
-  item_font = "Berlin Regular 14"
+  left = 5%
+  top = 30%
+  width = 95%
+  height = 85%
+  item_font = "Ubuntu Regular 16"
   item_color = "#cccccc"
   selected_item_color = "#ffffff"
-  icon_width = 36
-  icon_height = 36
+  icon_width = 30
+  icon_height = 30
   item_icon_space = 20
   item_height = 40
   item_padding = 2
@@ -33,11 +33,11 @@ terminal-border: "0"
 # Countdown label
 # You can change the name of default starting OS here
 + label {
-  left = 25%
-  top = 31%
+  left = 30%
+  top = 15%
   align = "center"
   id = "__timeout__"
   text = "Selected OS will start in %d seconds"
   color = "#cccccc"
-  font = "Berlin Regular 12"
+  font = "Ubuntu Regular 14"
 }
