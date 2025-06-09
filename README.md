@@ -7,7 +7,7 @@ Assets taken from https://github.com/diegons490/cachy-grub-theme under GPL-3.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/guideos-grub-theme.git
+   git clone https://github.com/GuideOS/guideos-grub-theme.git
    ```
 2. Copy the theme folder to `/boot/grub/themes/`:
    ```bash
