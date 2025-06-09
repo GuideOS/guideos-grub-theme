@@ -26,3 +26,6 @@ Assets taken from https://github.com/diegons490/cachy-grub-theme under GPL-3.
 
 ![Screenshot](https://github.com/user-attachments/assets/7adcf9b8-7ca7-48e6-976d-c765a63a7286)
 
+## License
+
+This project is licensed under the [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html).
