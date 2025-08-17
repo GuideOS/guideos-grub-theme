@@ -13,15 +13,15 @@ terminal-border: "0"
 
 # Boot menu
 + boot_menu {
-  left = 5%
-  top = 30%
-  width = 95%
-  height = 85%
-  item_font = "Ubuntu Regular 16"
+  left = 15%
+  top = 40%
+  width = 75%
+  height = 55%
+  item_font = "Ubuntu Regular 20"
   item_color = "#cccccc"
   selected_item_color = "#ffffff"
-  icon_width = 30
-  icon_height = 30
+  icon_width = 36
+  icon_height = 36
   item_icon_space = 20
   item_height = 40
   item_padding = 2
@@ -34,10 +34,10 @@ terminal-border: "0"
 # You can change the name of default starting OS here
 + label {
   left = 30%
-  top = 15%
+  top = 25%
   align = "center"
   id = "__timeout__"
   text = "Selected OS will start in %d seconds"
   color = "#cccccc"
-  font = "Ubuntu Regular 14"
+  font = "Ubuntu Regular 17"
 }
