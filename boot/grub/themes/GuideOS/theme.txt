@@ -1,10 +1,9 @@
-# Modifyed by KTT73 for GuideOS 2025-05-26
+# Modifyed by KTT73 for GuideOS 2025-07-12
 # Main options
 title-text: ""
 desktop-image: "background.png"
 desktop-color: "#000000"
-terminal-font: "Terminus Regular 12"
-terminal-box: "terminal_box_*.png"
+terminal-font: "Terminus Regular 18"
 terminal-left: "0"
 terminal-top: "0"
 terminal-width: "100%"
@@ -17,12 +16,12 @@ terminal-border: "0"
   top = 40%
   width = 75%
   height = 55%
-  item_font = "Ubuntu Regular 20"
-  item_color = "#cccccc"
+  item_font = "Berlin 20"
+  item_color = "#909090"
   selected_item_color = "#ffffff"
   icon_width = 36
   icon_height = 36
-  item_icon_space = 20
+  item_icon_space = 16
   item_height = 40
   item_padding = 2
   item_spacing = 10
@@ -33,11 +32,11 @@ terminal-border: "0"
 # Countdown label
 # You can change the name of default starting OS here
 + label {
-  left = 30%
+  left = 25%
   top = 25%
   align = "center"
   id = "__timeout__"
-  text = "Selected OS will start in %d seconds"
+  text = "Ausgewähltes Betriebssystem wird in %d Sekunden starten"
   color = "#cccccc"
-  font = "Ubuntu Regular 17"
+  font = "Berlin 17"
 }
