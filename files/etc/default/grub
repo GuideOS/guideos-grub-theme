@@ -1,3 +1,5 @@
+#Bsp. für Änderungen
+
 GRUB_DEFAULT='0'
 GRUB_TIMEOUT='5'
 GRUB_DISTRIBUTOR='GuideOS (Cinnamon)'
@@ -10,7 +12,7 @@ GRUB_TERMINAL_INPUT=console
 GRUB_GFXMODE=auto
 GRUB_GFXPAYLOAD_LINUX=keep
 GRUB_DISABLE_RECOVERY='true'
-GRUB_THEME="/usr/share/grub/themes/GuideOS/theme.txt"
+GRUB_THEME="/boot/grub/themes/GuideOS/theme.txt"
 GRUB_DISABLE_SUBMENU='false'
 GRUB_DISABLE_OS_PROBER=false
 GRUB_BTRFS_DISABLE=false
