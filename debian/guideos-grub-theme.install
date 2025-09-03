@@ -1,0 +1,5 @@
+files/boot/grub/themes/GuideOS/* usr/share/grub/themes/GuideOS/
+files/boot/grub/splash.png usr/share/grub/
+files/etc/default/grub etc/default/
+
+LICENSE usr/share/doc/guideos-grub-theme/

@@ -1,0 +1,13 @@
+Source: guideos-grub-theme
+Section: misc
+Priority: optional
+Maintainer: GuideOS <maintainer@example.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 1.0
+Homepage: https://github.com/GuideOS/guideos-grub-theme
+
+Package: guideos-grub-theme
+Architecture: all
+Depends: ${misc:Depends}
+Description: GuideOS GRUB Theme
+ A custom GRUB theme for GuideOS.
