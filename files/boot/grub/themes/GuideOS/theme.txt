@@ -1,4 +1,7 @@
 # Modifyed by KTT73 for GuideOS 2025-08-31
+# 1.0-rc 17.10.2025 - add logo animation 4 Countdown
+# 1.0    17.10.2025 - del old Countdown 
+
 # Main options
 title-text: ""
 desktop-image: "background.png"
@@ -28,15 +31,18 @@ terminal-border: "0"
   selected_item_pixmap_style = "select_*.png"
 }
 
-
-# Countdown label
-# You can change the name of default starting OS here
-+ label {
-  left = 26%
-  top = 25%
-  align = "center"
-  id = "__timeout__"
-  text = "Ausgewähltes Betriebssystem wird in %d Sekunden starten"
-  color = "#ffffff"
-  font = "Berlin 17"
+# Show logo and circular progress
++ circular_progress
+{
+   id = "__timeout__"
+   left = 46%
+   top = 25%
+   width = 110
+   height = 110
+   num_ticks = 33
+   ticks_disappear = false
+   start_angle = -67
+   end_angle = -67
+   center_bitmap = "GuideOS.png"
+   tick_bitmap = "dot.png"
 }
