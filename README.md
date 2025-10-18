@@ -24,7 +24,7 @@ Assets taken from https://github.com/diegons490/cachy-grub-theme under GPL-3.
 
 # Screenshot
 
-![alt text](Screenshot_GOS-0.9-1.png)
+![alt text](Screenshot.png)
 
 ## License
 
