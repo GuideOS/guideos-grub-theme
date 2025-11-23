@@ -1,0 +1,48 @@
+# Modifyed by KTT73 for GuideOS 2025-08-31
+# 1.0-rc 17.10.2025 - add logo animation 4 Countdown
+# 1.0    17.10.2025 - del old Countdown 
+
+# Main options
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "Terminus Regular 18"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Boot menu
++ boot_menu {
+  left = 15%
+  top = 40%
+  width = 70%
+  height = 55%
+  item_font = "Berlin 20"
+  item_color = "#eaeaea"
+  selected_item_color = "#ffffff"
+  icon_width = 36
+  icon_height = 36
+  item_icon_space = 16
+  item_height = 40
+  item_padding = 2
+  item_spacing = 10
+  selected_item_pixmap_style = "select_*.png"
+}
+
+# Show logo and circular progress
++ circular_progress
+{
+   id = "__timeout__"
+   left = 46%
+   top = 25%
+   width = 110
+   height = 110
+   num_ticks = 33
+   ticks_disappear = false
+   start_angle = -67
+   end_angle = -67
+   center_bitmap = "GuideOS.png"
+   tick_bitmap = "dot.png"
+}
