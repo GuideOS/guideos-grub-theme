@@ -3,9 +3,9 @@
 GRUB_DEFAULT='0'
 GRUB_TIMEOUT='5'
 GRUB_DISTRIBUTOR='GuideOS (Cinnamon)'
-GRUB_CMDLINE_LINUX_DEFAULT="loglevel=0 threadirqs locale=de_DE.UTF-8"
+GRUB_CMDLINE_LINUX_DEFAULT="loglevel=0 threadirqs locale=de_DE.UTF-8 bootkbd=de console-setup/layoutcode=de"
 GRUB_CMDLINE_LINUX="quiet splash"
-
+GRUB_LANG=de_DE
 GRUB_PRELOAD_MODULES="part_gpt part_msdos"
 GRUB_TIMEOUT_STYLE=menu
 GRUB_TERMINAL_INPUT=console

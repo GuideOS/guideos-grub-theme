@@ -1,6 +1,9 @@
 # Modifyed by KTT73 for GuideOS 2025-08-31
 # 1.0-rc 17.10.2025 - add logo animation 4 Countdown
 # 1.0    17.10.2025 - del old Countdown 
+# 1.1    23.11.2025 - add help bar
+
+
 
 # Main options
 title-text: ""
@@ -45,4 +48,16 @@ terminal-border: "0"
    end_angle = -67
    center_bitmap = "GuideOS.png"
    tick_bitmap = "dot.png"
+}
+
+#help bar @ bottom
++ label {
+	top = 100%-50
+	left = 0
+	width = 90%
+	height = 20
+	text = "@KEYMAP_SHORT@"
+	align = "center"
+	color = "#ffffff"
+	font = "Berlin 20"
 }
