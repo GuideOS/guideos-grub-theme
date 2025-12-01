@@ -24,7 +24,7 @@ Assets taken from https://github.com/diegons490/cachy-grub-theme under GPL-3.
 
 # Screenshot
 
-<img width="1920" height="1080" alt="Screenshot_GuideOS 0 9 BETA_2025-11-23_18:50:03" src="https://github.com/user-attachments/assets/10ac394d-9e85-462e-9065-50fe116d1987" />
+<img width="1920" height="1080" alt="Screenshot_GuideOS 0 9 BETA_2025-12-01_19:18:35" src="https://github.com/user-attachments/assets/a05a38d1-1c22-428c-b81b-42a565075f56" />
 
 
 ## License
