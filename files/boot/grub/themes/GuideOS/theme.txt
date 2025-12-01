@@ -38,7 +38,7 @@ terminal-border: "0"
 + circular_progress
 {
    id = "__timeout__"
-   left = 46%
+   left = 44%
    top = 25%
    width = 110
    height = 110
