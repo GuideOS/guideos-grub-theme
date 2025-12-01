@@ -2,7 +2,7 @@
 # 1.0-rc 17.10.2025 - add logo animation 4 Countdown
 # 1.0    17.10.2025 - del old Countdown 
 # 1.1    23.11.2025 - add help bar
-
+# 1.1.1  01.12.2025 - changed background 4 1.0 Relaese
 
 
 # Main options
