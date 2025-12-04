@@ -15,7 +15,7 @@ Assets taken from https://github.com/diegons490/cachy-grub-theme under GPL-3.
    ```
 3. Open `/etc/default/grub` and set:
    ```
-   GRUB_THEME="/boot/grub/themes/guideos-grub-theme/theme.txt"
+   GRUB_THEME="/boot/grub/themes/GuideOS/theme.txt"
    ```
 4. Update GRUB:
    ```bash
